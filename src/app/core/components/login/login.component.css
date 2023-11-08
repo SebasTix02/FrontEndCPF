@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+}
+:host{
+    width: 80%;
+    display: block;
+}
+.ingresar{
+    background-color: rgba(94, 94, 0, 0.604);
+}

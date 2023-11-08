@@ -1,0 +1,15 @@
+mat-toolbar{
+    background-color: #efb810;
+    height: 80px;
+}
+h2{
+    font-size: 25px;
+    color: rgb(0, 0, 0) !important;
+    line-height: 80px;
+}
+mat-icon{
+    font-size: 34px;
+    width: 34px;
+    height: 34px;
+    color: rgb(0, 0, 0);
+}

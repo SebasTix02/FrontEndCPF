@@ -1,0 +1,20 @@
+mat-sidenav-content{
+    min-height: 100vh;
+}
+mat-sidenav{
+    max-width: 280px;
+    background-color: #212121;
+
+}
+.logo{
+    padding: 0 24px;
+    background-color: #191919;
+    color: hsla(0, 0%, 100%, 0.7) !important;
+    min-height: 64px;
+}
+
+.logo h3{
+    padding: 0;
+    margin: 0;
+    line-height: 64px;
+}
