@@ -1,7 +1,7 @@
 name: Das deploy
 on: [push]
 Jobs:
-	Explore-GitHubActions:
+	Explore-GitHub-Actions:
 	runs-on: ubuntu-latest
 	steps:
 	 	-name:checkout code
