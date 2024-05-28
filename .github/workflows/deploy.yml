@@ -1,15 +1,13 @@
 name: Das deploy
 on: [push]
-Jobs:
-	Explore-GitHub-Actions:
-	runs-on: ubuntu-latest
-	steps:
-	 	-name:checkout code
-		 uses: actions/checkout@v2
-		-uses: actions/setup-node@v2
-		-name: Install packages
-		 run: npm ci
-		 name: Run ESlint
-		 run: npm run cli:lint
-		-name: Run Tests
-		 run: npm run ci:test
+jobs: 
+  Explore-GitHub-Actions:
+    runs-on: ububtu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - name: Intall packages
+        run: npm ci
+      - name: Bundle
+        run: npm run build
